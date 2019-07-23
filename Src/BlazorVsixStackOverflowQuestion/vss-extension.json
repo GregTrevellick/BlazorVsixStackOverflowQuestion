@@ -1,15 +1,15 @@
 {
   "manifestVersion": 1,
-  "id": "BlazorVsixStackOverflowQuestion",
-  "version": "1.0.1",
-  "name": "Blazor Vsix StackOverflow Question",
+  "id": "BlazorWidget",
+  "version": "1.0.6",
+  "name": "Blazor Widget",
   "publisher": "GregTrevellick",
   "targets": [
     {
       "id": "Microsoft.VisualStudio.Services"
     }
   ],
-  "description": "A Blazor proof of concept widget",
+  "description": "A work-in-progress / preview Blazor proof of concept widget",
   "icons": {
     "default": "BlazorVsixStackOverflowQuestion/dist/Images/DefaultIcon.png"
   },
@@ -27,25 +27,10 @@
     },
     "repository": {
       "uri": "https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion"
-    },
-    "issues": {
-      "uri": "https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion/issues"
-    },
-    "support": {
-      "uri": "https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion/issues"
-    },
-    "getstarted": {
-      "uri": "https://docs.microsoft.com/en-gb/aspnet/core/blazor/get-started"
-    },
-    "learn": {
-      "uri": "https://devblogs.microsoft.com/aspnet/blazor-now-in-official-preview/"
-    },
-    "privacypolicy": {
-      "uri": "https://gregtrevellick.github.io/Azure-DevOps-Widget-Privacy-Policy/"
     }
   },
   "branding": {
-    "color": "rgb(189, 209, 0)",
+    "color": "rgb(14,94,207)",
     "theme": "dark"
   },
 
@@ -121,9 +106,13 @@
 
   "repository": {
     "type": "git",
-    "uri": "https://github.com/GregTrevellick/AzureDevOpsBlazorVsixStackOverflowQuestion"
+    "uri": "https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion"
   },
 
-  "public": false
-
+  "public": false,
+  
+  "galleryFlags": [
+    "Preview"
+  ]
+  
 }

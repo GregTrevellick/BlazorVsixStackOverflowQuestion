@@ -1,3 +1,3 @@
-A dashboard widget to share Blazor Saddles with your team.
+A work-in-progress proof of concept widget written using Blazor.
 
-![](https://raw.githubusercontent.com/GregTrevellick/AzureDevOpsBlazorSaddlesWidget/master/Src/BlazorSaddlesWidget/artefacts/Screenshot.png)
+This widget currently does not load successfully in Azure Devops dashboards and is the subject of a [StackOverflow question](https://stackoverflow.com/questions/55424046/unable-to-set-apk-meta-data-using-google-api-dot-net-client).
