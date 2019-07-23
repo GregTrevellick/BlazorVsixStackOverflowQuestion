@@ -1,0 +1,146 @@
+{
+  "manifestVersion": 1,
+  "id": "BlazorVsixStackOverflowQuestion",
+  "version": "1.0.1",
+  "name": "Blazor Vsix StackOverflow Question",
+  "publisher": "GregTrevellick",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "A Blazor proof of concept widget",
+  "icons": {
+    "default": "BlazorVsixStackOverflowQuestion/dist/Images/DefaultIcon.png"
+  },
+  "categories": [
+    "Azure Boards "
+  ],
+  "tags": [
+    "Agile",
+    "Blazor",
+    "Widget"
+  ],
+
+  "links": {
+    "home": {
+      "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorVsixStackOverflowQuestion"
+    },
+    "repository": {
+      "uri": "https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion"
+    },
+    "issues": {
+      "uri": "https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion/issues"
+    },
+    "support": {
+      "uri": "https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion/issues"
+    },
+    "getstarted": {
+      "uri": "https://docs.microsoft.com/en-gb/aspnet/core/blazor/get-started"
+    },
+    "learn": {
+      "uri": "https://devblogs.microsoft.com/aspnet/blazor-now-in-official-preview/"
+    },
+    "privacypolicy": {
+      "uri": "https://gregtrevellick.github.io/Azure-DevOps-Widget-Privacy-Policy/"
+    }
+  },
+  "branding": {
+    "color": "rgb(189, 209, 0)",
+    "theme": "dark"
+  },
+
+  "contributions": [
+    {
+      "id": "JSParamValue_BlazorVsixStackOverflowQuestion",
+      "type": "ms.vss-dashboards-web.widget",
+      "targets": [
+        "ms.vss-dashboards-web.widget-catalog"
+      ],
+      "properties": {
+        "name": "Blazor Saddles",
+        "description": "The Blazor Saddles Widget",
+        "catalogIconUrl:": "BlazorVsixStackOverflowQuestion/dist/Images/CatalogIcon.png",
+        "previewImageUrl": "BlazorVsixStackOverflowQuestion/dist/Images/DefaultIcon.png",
+        "uri": "BlazorVsixStackOverflowQuestion/dist/index.html",
+        "supportedSizes": [
+          {
+            "rowSpan": 2,
+            "columnSpan": 2
+          }
+        ],
+        "supportedScopes": [ "project_team" ]
+      }
+    }
+  ],
+
+  "files": [
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/index.html",
+      "addressable": true
+    },
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/Content",
+      "addressable": true
+    },
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/Images",
+      "addressable": true
+    },
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/css",
+      "addressable": true
+    },
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/sample-data",
+      "addressable": true
+    },
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/Scripts",
+      "addressable": true
+    },
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/_bin",
+      "addressable": true
+    },
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/wasm/mono.js",
+      "addressable": true
+    },
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/wasm/mono.wasm",
+      "addressable": true,
+      "contentType": "application/wasm"
+    },
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/blazor.boot.json",
+      "addressable": true,
+      "contentType": "application/json"
+    },
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/blazor.server.js",
+      "addressable": true
+    },
+    {
+      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/blazor.webassembly.js",
+      "addressable": true
+    }
+  ],
+
+  "content": {
+    "details": {
+      "path": "BlazorVsixStackOverflowQuestion/dist/Images/Overview.md"
+    },
+    "license": {
+      "path": "BlazorVsixStackOverflowQuestion/dist/Images/Licence.md"
+    }
+  },
+
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/GregTrevellick/AzureDevOpsBlazorVsixStackOverflowQuestion"
+  },
+
+  "public": false
+
+}
