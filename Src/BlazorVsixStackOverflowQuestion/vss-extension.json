@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "BlazorWidget",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "name": "Blazor Widget",
   "publisher": "GregTrevellick",
   "targets": [
@@ -42,14 +42,14 @@
         "ms.vss-dashboards-web.widget-catalog"
       ],
       "properties": {
-        "name": "Blazor Vsix StackOverflow Question",
-        "description": "The Blazor Vsix StackOverflow Question",
+        "name": "Blazor Widget",
+        "description": "A work-in-progress / preview Blazor proof of concept widget.",
         "catalogIconUrl:": "BlazorVsixStackOverflowQuestion/dist/Images/CatalogIcon.png",
         "previewImageUrl": "BlazorVsixStackOverflowQuestion/dist/Images/DefaultIcon.png",
         "uri": "BlazorVsixStackOverflowQuestion/dist/index.html",
         "supportedSizes": [
           {
-            "rowSpan": 2,
+            "rowSpan": 1,
             "columnSpan": 2
           }
         ],
