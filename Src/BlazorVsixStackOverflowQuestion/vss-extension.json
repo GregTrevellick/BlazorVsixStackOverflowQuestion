@@ -79,14 +79,6 @@
       "addressable": true
     },
     {
-      "path": "BlazorVsixStackOverflowQuestion/dist/Content",
-      "addressable": true
-    },
-    {
-      "path": "BlazorVsixStackOverflowQuestion/dist/Images",
-      "addressable": true
-    },
-    {
       "path": "BlazorVsixStackOverflowQuestion/dist/Scripts",
       "addressable": true
     },
