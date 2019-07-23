@@ -13,13 +13,7 @@ This application runs fine under the following conditions
  - Running locally from Visual Studio (VS2019) using 'F5'
  - Running locally as a static site after having published the project to disc locally using the Visual Studio 'Publish' function
  - Running remotely as a hosted static site after uploading the published site to a host
- - Running as a statis site remotely within an iframe of a second static site (this second static site mimics AzureDevOps boards)
+ - Running as a static site remotely within an iframe of a second static site (this second static site mimics AzureDevOps boards, using a different host name)
 
- but fails to fiund route etc in azo iframe
-
- ## Hosted iframe 
-
- ## Vsix side of things
-
- ## Sample ado mimic (iframe hoster)
-
+ This application fails to runs correctly when uploaded as an extension to the [Visual Studio Marketplace].
+ In this scenario all the blazor-related assetts are served up to the browser successfully, and the blazor DLL runs successfully (i.e. Programs.cs kicks in successfully) but blazor fails to successfully find the default route and hence the ```<NotFoundContent>``` within ```App.razor``` kicks in.
