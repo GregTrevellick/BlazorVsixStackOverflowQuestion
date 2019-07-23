@@ -6,58 +6,22 @@
     <title>BlazorVsixStackOverflowQuestion</title>
     <script src="Scripts/SDK/VSS.SDK.min.js"></script>
     <script src="Scripts/app.js"></script>
-    <!--no need to use this one anymore-->
-    <!--<base href="/" />-->
-    <!--USE THIS FOR LOCAL STATIC PUBLICATION-->
-    <!--<base href="../dist/" />-->
-    <!--USE THIS FOR LOCAL IIS DEBUGGING & USE THIS WHEN UPLOADING TO VSMP-->
-    <!--<base href="tom">-->
-<!--<base href="dist">-->
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/site.css" rel="stylesheet" />
+    <!--Note: the base href is set dynamically below, not here, due to the nature of the semi-dynamic URL for Azure Devops widget iframes-->
 </head>
 <body>
+
     <appy>
-        Loading 1.0.280
+        Loading...
     </appy>
 
-
     <script type="text/javascript">
-        var abc = location.href;
-        //get the _framework/blazor.webassembly.js file
-        //if (abc.endsWith("counter")) {
-        //    console.log("3");
-        //    var xyz = abc.replace("counter", "");
-        //    var imported = document.createElement('script');
-        //    var def = xyz + '_framework/blazor.webassembly.js';
-        //    imported.src = def;
-        //    document.head.appendChild(imported);
-        //    console.log("xyz=" + xyz);//http://localhost:64427/
-        //}
-        //else {
-//        console.log("1");
-        var xyz = abc.replace("index.html", "");
-//        var imported = document.createElement('script');
-//        var def = xyz + '_framework/blazor.webassembly.js';
-//        imported.src = def;
-//        document.head.appendChild(imported);
-        console.log("xyz=" + xyz);  
-            //    window.location = xyz + "counter";
-            //}
-            ////routing not working in vsmp but does locally in iframe (no idea why, wasted too much time already), so manually route user
-            //if (!abc.endsWith("counter")) {
-            //    console.log("2");
-            //    window.location = xyz + "counter";
-            //}
-
-
-        //console.log("host=" + document.location.host);
-        //document.write("<base href='https://" + document.location.host + "' />");
-//        document.write("<base href='" + xyz + "' />");
-          console.log("22222222");
+        var baseIframeUrl = location.href.replace("index.html", "");
+        console.log("baseIframeUrl=" + baseIframeUrl);
+        document.write("<base href='" + baseIframeUrl + "' />");
     </script>
 
     <script type="text/javascript" src="_framework/blazor.webassembly.js"></script>
+
 </body>
 </html>
 
