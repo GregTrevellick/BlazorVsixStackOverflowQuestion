@@ -12,6 +12,8 @@ The application works fine when running under the following conditions
  
  However when I generate an [Azure Devops widget](https://docs.microsoft.com/en-us/azure/devops/extend/develop/add-dashboard-widget?view=azure-devops) and upload it to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorWidget) Blazor routing fails and therefore the site fails to load correctly.
  
+ The source code for the site (which nothing more than a simplified version of the default VS Blazor template) can be found [here](https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion).
+
  Observations
  
  - all the blazor-related assets (i.e. Blazor & mono javascript files & various DLL files) are served up to the browser successfully
