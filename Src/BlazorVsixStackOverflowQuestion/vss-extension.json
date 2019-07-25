@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "BlazorWidget",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "name": "Blazor Widget",
   "publisher": "GregTrevellick",
   "targets": [

@@ -1,8 +1,8 @@
 # BlazorVsixStackOverflowQuestion
 
-A simple repo containing code for a [StackOverflow question](https://stackoverflow.com/questions/55424046/unable-to-set-apk-meta-data-using-google-api-dot-net-client).
+A simple repo containing code for a [StackOverflow question](https://stackoverflow.com/questions/todo).
 
-The code is an AzureDevOps widget written using Blazor.
+The code is a non-functioning AzureDevOps widget written using Blazor.
 
 <!--
 ## Vsix generation

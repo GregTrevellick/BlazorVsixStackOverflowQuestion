@@ -27,5 +27,5 @@ The application works fine when running under the following conditions
 
  Notes
 
- - all Azure Devops widgets run inside an iframe within [Azure Devops](https://azure.microsoft.com/en-gb/services/devops/).
- - the vsix file that is uploaded to Visual Studio Marketplace [can be found here](https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion).
+ - all [Azure Devops widgets](https://marketplace.visualstudio.com/search?target=AzureDevOps&category=Azure%20Boards&sortBy=Downloads) run inside an iframe within [Azure Devops](https://azure.microsoft.com/en-gb/services/devops/).
+ - the vsix file that was uploaded to Visual Studio Marketplace [can be found here](https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion/Src/BlazorVsixStackOverflowQuestion/bin/Debug/netstandard2.0/publish/GregTrevellick.BlazorWidget-1.0.11.vsix).
