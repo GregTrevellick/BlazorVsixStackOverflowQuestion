@@ -1,13 +1,16 @@
 # Blazor routing fails in Azure DevOps iframe
 
-I have a simple [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/client) website ([source code](https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion)) which works fine when running locally on my PC. It works fine as a stand alone website and also within an iframe of another website. In both iframe & non-iframe scenarios it works fine when running directly from within Visual Studio (F5) and indepenmdently of Visual Studio after having published the site as a set of static assets.
+I have a simple [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/client) website ([source code](https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion)) which has a routing issue when running in an iframe on [Azure Devops](https://azure.microsoft.com/en-gb/services/devops/) but not elsewhere.
 
-This application runs fine under the following conditions
+The application works fine when running under the following conditions
 
- - Running locally from Visual Studio (VS2019) using 'F5'
- - Running locally as a static site after having published the project to disc locally using the Visual Studio 'Publish' function
- - Running remotely as a hosted static site after uploading the published site to a host
- - Running as a static site remotely within an iframe of a second static site (this second static site mimics AzureDevOps boards, using a different host name)
+ - locally on my PC using Visual Studio (VS2019) using 'F5'
+ - locally as a static site after having published the project to disc using the Visual Studio 'Publish' function
+ - locally as a static site within an iframe of another unrelated site
+ - remotely as a hosted static site after uploading the published site to a host
+ - remotely as a static site within an iframe of another unrelated site (this second static site mimics AzureDevOps boards, using a different host name)
+ 
+
 
 
 
