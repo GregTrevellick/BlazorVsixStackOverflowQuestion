@@ -10,8 +10,10 @@ The application works fine when running under the following conditions
  - remotely as a hosted static site after uploading the published site to a host
  - remotely as a static site within an iframe of another unrelated site (this second static site mimics AzureDevOps boards, using a different host name)
  
- However when I generate an [Azure Devops widget](https://docs.microsoft.com/en-us/azure/devops/extend/develop/add-dashboard-widget?view=azure-devops) and upload it to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorWidget) Blazor routing fails and therefore the site fails to load correctly.
+ However when I generate an [Azure Devops widget](https://docs.microsoft.com/en-us/azure/devops/extend/develop/add-dashboard-widget?view=azure-devops) and upload it to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorWidget) Blazor routing fails and therefore the site fails to load correctly, as per this screenshot.
  
+ ![](Screenshot.PNG)
+
  The source code for the site (which nothing more than a simplified version of the default VS Blazor template) can be found [here](https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion).
 
  Observations
