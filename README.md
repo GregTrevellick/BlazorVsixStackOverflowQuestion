@@ -9,7 +9,9 @@ The code is an AzureDevOps widget written using Blazor.
 All AzureDevOps widgets run inside an iframe within AzureDevOps boards.
 
 ## Correct behaviour 
+
 This application runs fine under the following conditions
+
  - Running locally from Visual Studio (VS2019) using 'F5'
  - Running locally as a static site after having published the project to disc locally using the Visual Studio 'Publish' function
  - Running remotely as a hosted static site after uploading the published site to a host
@@ -24,12 +26,15 @@ This application runs fine under the following conditions
  ## Vsix generation
 
  To re-create the issue / generate the vsix file that is uploaded to [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorWidget) do the following:
+
   - Run ```VsmpBuilder.bat``` in the root of the ```BlazorVsixStackOverflowQuestion``` project
 
  This batch file will
+
   - Build & publish the project as a set of static asset files for the website
   - Generate a vsix file from the static asset files
 
  When running yourself you will likely need to 
+
   - Alter the path names in the batch file 
   - Alter the content of the ```vss-extension.json``` manifest file which drives the generation of the vsix file
