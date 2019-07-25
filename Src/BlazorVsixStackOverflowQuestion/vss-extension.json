@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "BlazorWidget",
-  "version": "1.0.12",
+  "version": "1.0.14",
   "name": "Blazor Widget",
   "publisher": "GregTrevellick",
   "targets": [
@@ -113,7 +113,7 @@
     "uri": "https://github.com/GregTrevellick/BlazorVsixStackOverflowQuestion"
   },
 
-  "public": false,
+  "public": true,
   
   "galleryFlags": [
     "Preview"
