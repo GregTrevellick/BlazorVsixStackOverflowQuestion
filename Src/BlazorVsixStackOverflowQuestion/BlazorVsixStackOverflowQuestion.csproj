@@ -1,20 +1,35 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <!--<TargetFramework>netcoreapp3.0</TargetFramework>-->
     <LangVersion>7.3</LangVersion>
     <RazorLangVersion>3.0</RazorLangVersion>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\_framework\**" />
+    <Compile Remove="wwwroot\_framework\wasm\**" />
+    <Compile Remove="wwwroot\_framework\_bin\**" />
+    <Content Remove="wwwroot\_framework\**" />
+    <Content Remove="wwwroot\_framework\wasm\**" />
+    <Content Remove="wwwroot\_framework\_bin\**" />
+    <EmbeddedResource Remove="wwwroot\_framework\**" />
+    <EmbeddedResource Remove="wwwroot\_framework\wasm\**" />
+    <EmbeddedResource Remove="wwwroot\_framework\_bin\**" />
+    <None Remove="wwwroot\_framework\**" />
+    <None Remove="wwwroot\_framework\wasm\**" />
+    <None Remove="wwwroot\_framework\_bin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="VsmpReadMe.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Blazor" Version="3.0.0-preview7.19365.7" />
-    <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="3.0.0-preview7.19365.7" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.0.0-preview7.19365.7" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Blazor" Version="3.2.0-preview1.20073.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="3.2.0-preview1.20073.1" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.2.0-preview1.20073.1" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>

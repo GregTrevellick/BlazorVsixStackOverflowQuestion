@@ -1,5 +1,12 @@
-﻿<Router AppAssembly="typeof(App).Assembly">
-    <NotFoundContent>
-        <p>Sorry, there's nothing at this address (NotFoundContent).</p>
-    </NotFoundContent>
+﻿@using Microsoft.AspNetCore.Components.Routing
+@inject NavigationManager navigationManager
+@{navigationManager.NavigateTo(@navigationManager.Uri.Replace("index.html", "") + "mypage");}
+
+<Router AppAssembly="typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(Index)" />
+    </Found>
+    <NotFound>
+        <p>Sorry, there's nothing at this address.</p>
+    </NotFound>
 </Router>

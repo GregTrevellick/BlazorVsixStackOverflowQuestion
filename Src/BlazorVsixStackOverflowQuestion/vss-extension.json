@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "BlazorWidget",
-  "version": "1.0.14",
+  "version": "1.0.22",
   "name": "Blazor Widget",
   "publisher": "GregTrevellick",
   "targets": [
@@ -11,7 +11,7 @@
   ],
   "description": "A work-in-progress / preview Blazor proof of concept widget",
   "icons": {
-    "default": "BlazorVsixStackOverflowQuestion/dist/Images/DefaultIcon.png"
+    "default": "wwwroot/Images/DefaultIcon.png"
   },
   "categories": [
     "Azure Boards "
@@ -44,9 +44,9 @@
       "properties": {
         "name": "Blazor Widget",
         "description": "A work-in-progress / preview Blazor proof of concept widget.",
-        "catalogIconUrl:": "BlazorVsixStackOverflowQuestion/dist/Images/CatalogIcon.png",
-        "previewImageUrl": "BlazorVsixStackOverflowQuestion/dist/Images/DefaultIcon.png",
-        "uri": "BlazorVsixStackOverflowQuestion/dist/index.html",
+        "catalogIconUrl:": "wwwroot/Images/CatalogIcon.png",
+        "previewImageUrl": "wwwroot/Images/DefaultIcon.png",
+        "uri": "wwwroot/index.html",
         "supportedSizes": [
           {
             "rowSpan": 1,
@@ -60,51 +60,69 @@
 
   "files": [
     {
-      "path": "BlazorVsixStackOverflowQuestion/dist/index.html",
+      "path": "wwwroot/index.html",
       "addressable": true
     },
     {
-      "path": "BlazorVsixStackOverflowQuestion/dist/Images",
+      "path": "wwwroot/Images",
       "addressable": true
     },
     {
-      "path": "BlazorVsixStackOverflowQuestion/dist/Scripts",
+      "path": "wwwroot/Scripts",
       "addressable": true
     },
     {
-      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/_bin",
+      "path": "bin/Release/netstandard2.1/dist/_framework/_bin",
       "addressable": true
     },
     {
-      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/wasm/mono.js",
+      "path": "bin/Release/netstandard2.1/dist/_framework/wasm/dotnet.js",
       "addressable": true
     },
     {
-      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/wasm/mono.wasm",
+      "path": "bin/Release/netstandard2.1/dist/_framework/wasm/dotnet.wasm",
       "addressable": true,
       "contentType": "application/wasm"
     },
     {
-      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/blazor.boot.json",
+      "path": "wwwroot/_framework/_bin",
+      "addressable": true
+    },
+    {
+      "path": "wwwroot/_framework/wasm/dotnet.js",
+      "addressable": true
+    },
+    {
+      "path": "wwwroot/_framework/wasm/dotnet.wasm",
+      "addressable": true,
+      "contentType": "application/wasm"
+    },
+    {
+      "path": "bin/Release/netstandard2.1/dist/_framework/blazor.boot.json",
       "addressable": true,
       "contentType": "application/json"
     },
     {
-      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/blazor.server.js",
+      "path": "wwwroot/_framework/blazor.boot.json",
+      "addressable": true,
+      "contentType": "application/json"
+    },
+    {
+      "path": "bin/Release/netstandard2.1/dist/_framework/blazor.webassembly.js",
       "addressable": true
     },
     {
-      "path": "BlazorVsixStackOverflowQuestion/dist/_framework/blazor.webassembly.js",
+      "path": "wwwroot/_framework/blazor.webassembly.js",
       "addressable": true
     }
   ],
 
   "content": {
     "details": {
-      "path": "BlazorVsixStackOverflowQuestion/dist/Images/Overview.md"
+      "path": "wwwroot/Images/Overview.md"
     },
     "license": {
-      "path": "BlazorVsixStackOverflowQuestion/dist/Images/Licence.md"
+      "path": "wwwroot/Images/Licence.md"
     }
   },
 
